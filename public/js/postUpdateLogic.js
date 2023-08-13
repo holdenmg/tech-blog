@@ -22,6 +22,14 @@ const updateButtonHandler = async (event) => {
 };
 
 
+const cancelHandler = async (event) => {
+  document.location.replace('/profile');
+}
+
 document
   .querySelector('.update')
   .addEventListener('click', updateButtonHandler)
+
+document
+  .querySelector('.cancel')
+  .addEventListener('click', cancelHandler)

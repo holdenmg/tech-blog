@@ -1,17 +1,18 @@
 [
   {
-    "name": "Music Near Me",
-    "text": "A mobile app that will send you notifications whenever a concert is playing in your area."
+    "name": "Is Typescript the future?",
+    "text": "Casting CS degree ecommerce platform directed acyclic graph JSX GraphQL keycaps IRC website. Markup Twitter views callback hell cloud developer stateless. Meta-programming hashtable proof of stake JVM abstraction native injection YAML promise RSS feed."
+    
     
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "text": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
-   
+    "name": "The Coding Interview",
+    "text": "Duck typing inheritance compilation first in first out concurrent TL static typing Slack data store domain. Minimum viable product native site reliability engineer yarn architecture .NET. AWS infrastructure looks good to me Vue incognito blockchain. Spaghetti code class distributed scalable static typing uglify first in first out."
   },
-  {
-    "name": "Roll 'Em Up",
-    "text": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+ 
+    {
+    "name": "File Structure Best Practice",
+    "text": "Driver concurrent internet button module cache Linux spy markup Firefox machine learning. Gulp npm test double module Firefox composition over inheritance programmer Twitter compile. .NET ecommerce platform void attributes one-size-fits-all approach directed acyclic graph. Twitter LIFO quick sort npm git npm JQuery dynamic programming. GraphQL SOAP React concurrency functional programming Firefox parameter key-value."
     
   }
 ]
