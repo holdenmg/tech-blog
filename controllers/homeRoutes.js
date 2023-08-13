@@ -47,9 +47,7 @@ router.get('/post/:id', async (req, res) => {
       
       ]
     });
-  
-
-
+    
     const post = postData.get({ plain: true });
     res.render('post', {
       ...post,
@@ -59,6 +57,39 @@ router.get('/post/:id', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('/profile/edit/:id', async (req, res) => {
+  try {
+    const postData = await Post.findByPk(req.params.id, {
+      include: [
+        
+        {  model: Comment,
+          attributes: ['id', 'text', 'post_id', 'user_id', 'date_created'],
+          include: 
+            {
+              model: User,
+              attributes: ['name'],
+            }
+        },
+        {
+          model: User,
+          attributes: ['name'],
+        }
+      
+      ]
+    });
+    
+    const post = postData.get({ plain: true });
+    res.render('editPost', {
+      ...post,
+      logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
 
 // Use withAuth middleware to prevent access to route
 router.get('/profile', withAuth, async (req, res) => {
