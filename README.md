@@ -7,6 +7,8 @@
 
   [URL](#url)  
 
+  [Screenshot](#screenshot)  
+
   [Installation](#installation)
 
   [Usage](#usage)
@@ -27,6 +29,12 @@
   https://github.com/holdenmg/tech-blog
   
   
+  ## Screenshot
+
+
+  <img src=public/images/screenshot.png> 
+
+
   ## Installation
  
   N/A
