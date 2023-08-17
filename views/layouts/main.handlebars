@@ -13,11 +13,31 @@
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
-<body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-    
-   <div id="navigation_mobile" class="navbar-menu">
+
+
+   <body>
+<div class="flex-column justify-space-around">
+ 
+
+    <nav id="logo-green" class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+     <section  class="hero has-content-centered">
+ <figure class="image is-96x96 ">
+            <img class="is-rounded" src="images/TECH-BLOG.png">
+        </figure>
+</section>
+    <a class="navbar-item" href="/" >
+      <h1 class="is-size-2 has-text-success"> TECH-BLOG </h1>
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navigation_mobile">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navigation_mobile" class="navbar-menu">
     <div class="navbar-start">
       <a href = "/" class="navbar-item">
        <strong> Home </strong>
@@ -48,6 +68,8 @@
     </div>
   </div>
 </nav>
+
+
     </header>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
@@ -62,6 +84,11 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
+<script src = "/js/homepage.js"></script>
+
+
+
+
 </body>
 
 </html>
